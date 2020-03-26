@@ -30,7 +30,7 @@ class Pilachu(pokemon):
     def eat(self):
         print(f'{self.name} is eatting {self.food}. pika')
 
-    def make_noice(self):
+    def make_noice(self.name):
         print(f'{self.name} pika pika chu!')
 
 class Squirtle(pokemon):

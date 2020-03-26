@@ -8,21 +8,21 @@ class pokemon:
         self.cp = new_cp
 
     def eat(self):
-        print(f'the pokemon is eatting{self.__food}.')
+        print(f'the pokemon is eatting{self.food}.')
 
     def make_noice(self):
         print(f'the pokemon wow wow wow!')
 
     def get_name(self):
-        return self.__name
+        return self.name
     def get_weight(self):
-        return self.__weight
+        return self.weight
     def get_height(self):
-        return self.__height
+        return self.height
     def get_food(self):
-        return self.__food
+        return self.food
     def get_cp(self):
-        return self.__cp
+        return self.cp
 
 
 
